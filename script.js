@@ -84,11 +84,7 @@ function updateTyping() {
   wpmResultElement.textContent = `WPM: ${wpm}`;
 
   // Auto-scroll to the current position
-  const previewContainer = document.getElementById("preview-container");
-  const highlightedElement = sampleTextElement.querySelector(".unmatched");
-  if (highlightedElement) {
-    highlightedElement.scrollIntoView({ behavior: "smooth", block: "center" });
-  }
+
 }
 
 function finishTyping() {
